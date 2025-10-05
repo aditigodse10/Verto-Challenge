@@ -1,0 +1,16 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.backface-hidden {
+    backface-visibility: hidden;
+}
+.perspective-1000 {
+    perspective: 1000px;
+}
+.rotate-y-180 {
+    transform: rotateY(180deg);
+}
+.clip-path-replicated {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    mask-image: radial-gradient(circle at 35% 50%, transparent 8px, black 9px);
+}

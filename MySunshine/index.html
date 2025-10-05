@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY SUNSHINE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="scene-container"></div>
+
+    <div class="container">
+        <h1>MY SUNSHINE</h1>
+        <div class="search-container">
+            <input type="text" id="city-input" placeholder="Search City">
+            <button id="search-button">
+                &#x1F50D; 
+            </button>
+        </div>
+        <div id="loading-indicator" class="status-message">Loading data...</div>
+        <div id="error-message" class="status-message"></div>
+        <div id="weather-display">
+        </div>
+        <div id="forecast-section" style="display: none;">
+            <div id="forecast-container">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
